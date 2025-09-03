@@ -10,9 +10,10 @@ using namespace std;
 int main() 
 {
     int N;
-    cout << "Ingrese un número N: ";
+    cout << "Ingrese un numero N: ";
     cin >> N;
     int suma = N * (N + 1) / 2;
+    // suma d en 1 depende del numero ingresado
     cout << "La suma de los enteros desde 1 hasta " << N << " es: " << suma << endl;
     return 0;
 }
