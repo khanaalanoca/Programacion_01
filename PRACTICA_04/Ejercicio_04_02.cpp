@@ -13,7 +13,6 @@ double CalcularVolumen(double radio, double altura = 10);
 
 int main() {
     double radio;
-    double CalcularVolumen;
     cout << "Ingrese el radio del cilindro: ";
     cin >> radio;
     // Validar que el radio sea positivo
@@ -27,7 +26,7 @@ int main() {
     return 0;
 }
 
-double CalcularVolumen(double radio, double altura = 10) {
+double CalcularVolumen(double radio, double altura=10) {
     return M_PI * pow(radio, 2) * altura;
 }
    
